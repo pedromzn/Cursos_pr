@@ -1,0 +1,78 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner h1{
+    color: #1D267D;
+}
+.search{
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.mesas{
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.mesas i{
+    color: white;
+    margin-top: 19px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.mesas p{
+    margin-left: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mesa-amarelo{
+    background-color:#F98439;
+    border: 2px solid #ff7017;
+}
+.mesa-verde{
+    background-color: #64FF1CC0;
+    border: 2px solid #56fa0ac0;
+}
+.mesa-azul{
+    background-color: #4A7FFF;
+    border: 2px solid #1d61ff;
+}
+.mesa-roxo{
+    background-color: #4D49BF;
+    border: 2px solid #1f18e9;
+}
+.links{
+    display: none;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 16px;
+    height: 200px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.links a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.links.active{
+    display: flex;   
+}
+#RH-box.active{
+    border-radius: 20px;
+}
