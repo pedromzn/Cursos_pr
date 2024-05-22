@@ -54,8 +54,11 @@
     background-color: #4D49BF;
     border: 2px solid #1f18e9;
 }
-.links{
+.esconde-1, .esconde-2, .esconde-3, .esconde-4, .esconde-5, .esconde-6, .esconde-7, .esconde-8, .esconde-9, .esconde-10{
     display: none;
+}
+.links{
+    display: flex;
     flex-direction: column;
     margin-left: 10px;
     margin-top: 16px;
@@ -70,9 +73,63 @@
     color: blue;
     transition: 0.5s;
 }
-.links.active{
-    display: flex;   
-}
 #RH-box.active{
     border-radius: 20px;
+}
+#ESG-box.active{
+    border-radius: 20px;
+}
+#BPO-box.active{
+    border-radius: 20px;
+}
+#PCA-box.active{
+    border-radius: 20px;
+}
+#QA-box.active{
+    border-radius: 20px;
+}
+#GET-box.active{
+    border-radius: 20px;
+}
+#MKT-box.active{
+    border-radius: 20px;
+}
+#WEB-box.active{
+    border-radius: 20px;
+}
+#SDR-box.active{
+    border-radius: 20px;
+}
+#DEV-box.active{
+    border-radius: 20px;
+}
+.esconde-1.active{
+    display: block;
+}
+.esconde-2.active{
+    display: block;
+}
+.esconde-3.active{
+    display: block;
+}
+.esconde-4.active{
+    display: block;
+}
+.esconde-5.active{
+    display: block;
+}
+.esconde-6.active{
+    display: block;
+}
+.esconde-7.active{
+    display: block;
+}
+.esconde-8.active{
+    display: block;
+}
+.esconde-9.active{
+    display: block;
+}
+.e0sconde-10.active{
+    display: block;
 }
