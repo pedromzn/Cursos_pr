@@ -1,0 +1,9 @@
+.player_curso{
+    background-color: rgb(145, 145, 145);
+    padding: 20px;
+    margin-top: 10px;
+    max-width: 80%;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 100px;
+}
